@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 10rem auto;
+    text-align: center;
+    color: red;
+}
