@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>We help you to find your Body-Mass Index</h2>
+        <div class="form">
+            <label for="weight" class="wei
+            ght">Weight (in kg): </label>
+            <input type="number" name="weight" id="weight" placeholder="Enter your weight in kg">
+
+            <label for="height" class="height">Height (in mtr)</label>
+            <input type="number" name="weight" id="height" placeholder="Enter your height in mtr">
+
+            <br>
+
+            <button id="calculate" onclick="calculate()">Calculate</button>
+        </div>
+        <hr>
+        <div class="chart">
+            <h3>Reference chart</h3><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>BMI</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>less than 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>more than 25</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>greater than 30</td>
+                        <td>Consulting needed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+
+</html>
