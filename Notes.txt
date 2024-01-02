@@ -1,0 +1,17 @@
+Event Propagation - event bubbling, event travels from closest id to the farthest id    
+    suppose a div with id home is created and another div with id room is created inside the home and listenres are added on home div and room div, when we click on the home div regualr event is called byt when we click on the room div first the event on the room div is called and then the home div event is called this is called as event bubbling
+
+    can use to event.stopPropagation() method to avoid event bubbling
+
+
+Async in JS - 
+    js is synchronous and single threaded
+    execution of code line by line
+
+    execution context - line executes one by one, next line waits for prevoius line to complete execution
+
+    blocking code - the program blocks all other operations while it is being completed
+        ex: reading file sync - js does not have a file system so if we have to read a file from the machine we request the kernel to give access and unless other tasks of the kernel are completed we cannot move further in our program
+    
+    Non blocking code - the program continues the execution untill other task is completed and then later on processes the result of the task
+        ex: reading file in async - we request the kernel to give access to a file and in the meanwhile our program proceeds furtherand when we have the file ready the program notifies us 

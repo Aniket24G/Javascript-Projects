@@ -1,0 +1,17 @@
+.container{
+    margin: 100px auto 100px;
+    /* border: 5px solid black; */
+    width: 80%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons button{
+    margin: auto;
+    /* width: 100px; */
+    height: 3rem;
+    font-size: 1rem; 
+}
+button{
+    width: 100px;
+    height: 85px;
+}
